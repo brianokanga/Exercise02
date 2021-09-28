@@ -53,21 +53,21 @@ namespace Exercise01
                         position = (digitsCount % 10) + 1;
                         place = " Billion ";
                         break;
-                    case 13:
+                    case 13://Trillion's range
                     case 14:
                     case 15:
 
                         position = (digitsCount % 13) + 1;
                         place = " Trillion ";
                         break;
-                    case 16:
+                    case 16://Quadrillion's range
                     case 17:
                     case 18:
 
                         position = (digitsCount % 16) + 1;
                         place = " Quadrillion ";
                         break;
-                    case 19:
+                    case 19://Quintillion's range
                     case 20:
                     case 21:
 
